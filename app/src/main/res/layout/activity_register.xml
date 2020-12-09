@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bgi"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activity.RegisterActivity">
+
+    <EditText
+        android:id="@+id/reg_et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/et_phone_input" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/reg_et_pwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/et_pwd_input"
+            android:password="true" />
+
+        <ImageView
+            android:id="@+id/reg_img_hide"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/close_eyes" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/reg_tv_skipToLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已有账号？立即登录>>" />
+
+    <Button
+        android:id="@+id/reg_bt_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="@string/btn_register" />
+
+</LinearLayout>

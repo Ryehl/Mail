@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--待收货-->
+    <LinearLayout
+        android:id="@+id/item_order_receive_ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_order_receive_orderCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_order_receive_createTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/item_order_receive_recy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_order_receive_ll_top" />
+
+    <!--快递公司-->
+    <TextView
+        android:id="@+id/item_order_receive_expressCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/item_order_receive_recy"
+        android:textAlignment="textStart" />
+
+
+    <!--快递单号-->
+    <TextView
+        android:id="@+id/item_order_receive_express"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/item_order_receive_expressCompany" />
+
+    <Button
+        android:id="@+id/item_order_receive_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_order_receive_recy"
+        android:layout_alignParentEnd="true"
+        android:text="@string/btn_order_toreceive" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">维度商城</string>
+    <string name="et_phone_input">请输入手机号</string>
+    <string name="et_pwd_input">请输入密码</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_register">注册</string>
+    <string name="tv_selectAll">全选</string>
+    <string name="tv_toBuy">去结算</string>
+    <string name="btn_order_delete">删除订单</string>
+    <string name="btn_order_topay">去支付</string>
+    <string name="btn_order_tocommon">去评价</string>
+    <string name="btn_order_toreceive">确认收货</string>
+    <string name="btn_shop_delete">删除</string>
+    <string name="tv_infomation">个人信息</string>
+    <string name="tv_my_hd">我的头像</string>
+    <string name="tv_my_nickname">我的昵称</string>
+    <string name="btn_infomation_unLogin">退出登录</string>
+    <string name="tv_mycircle">我的圈子</string>
+    <string name="tv_myfoot">我的足迹</string>
+    <string name="tv_wallet">我的钱包</string>
+</resources>

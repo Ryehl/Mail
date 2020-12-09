@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/frag_my_hd_big"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/frag_my_hd_small"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitCenter" />
+
+    <!--    个人资料-->
+    <LinearLayout
+        android:id="@+id/frag_my_ll_profile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/frag_my_hd_small"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/my_icon_information" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="个人资料" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/frag_my_tv_profile"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/frag_my_ll_profile"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="#000" />
+
+    <!--    我的圈子-->
+    <LinearLayout
+        android:id="@+id/frag_my_ll_circle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/frag_my_tv_profile"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/my_icon_circle" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="我的圈子" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/frag_my_tv_cirlce"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/frag_my_ll_circle"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="#000" />
+    <!--    我的足迹-->
+    <LinearLayout
+        android:id="@+id/frag_my_ll_foot"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/frag_my_ll_circle"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/my_icon_foot" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="我的足迹" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/frag_my_tv_foot"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/frag_my_ll_foot"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="#000" />
+
+    <!--    我的钱包-->
+    <LinearLayout
+        android:id="@+id/frag_my_ll_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/frag_my_tv_foot"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/my_icon_wallet" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="我的钱包" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/frag_my_tv_wallet"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/frag_my_ll_wallet"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="#000" />
+
+    <!--    我的收货地址-->
+    <LinearLayout
+        android:id="@+id/frag_my_ll_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/frag_my_tv_wallet"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/my_icon_address" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:text="我的收货地址" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/frag_my_ll_address"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="#000" />
+
+</RelativeLayout>

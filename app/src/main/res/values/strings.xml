@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WeiDuShop</string>
+    <string name="et_phone_input">phoneNumber</string>
+    <string name="et_pwd_input">password</string>
+    <string name="btn_login">Sing in</string>
+    <string name="btn_register">Sing up</string>
+    <string name="tv_selectAll">selectAll</string>
+    <string name="tv_toBuy">to buy</string>
+    <string name="btn_order_delete">delete order</string>
+    <string name="btn_order_topay">pay now</string>
+    <string name="btn_order_tocommon">common</string>
+    <string name="btn_order_toreceive">received</string>
+    <string name="btn_shop_delete">delete</string>
+    <string name="tv_infomation">infonation</string>
+    <string name="tv_my_hd">My Avatar</string>
+    <string name="tv_my_nickname">NickName</string>
+    <string name="btn_infomation_unLogin">dis login</string>
+    <string name="tv_mycircle">My Circle</string>
+    <string name="tv_myfoot">My Foot</string>
+    <string name="tv_wallet">My Wallet</string>
+</resources>

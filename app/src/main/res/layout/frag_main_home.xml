@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/frag_home_xrecy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/main_ll_changeBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="30dp">
+
+        <ImageView
+            android:id="@+id/frag_home_menu"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/frag_home_skipToSearch"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/common_nav_btn_search_n_xxhdpi" />
+    </LinearLayout>
+
+</RelativeLayout>

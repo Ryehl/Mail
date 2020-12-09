@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?><!--解决Android 9.0及以上 版本无法处理http请求的问题-->
+<network-security-config xmlns:android="http://schemas.android.com/apk/res/android">
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

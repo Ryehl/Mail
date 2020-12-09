@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="@drawable/border"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/item_order_item_sdv"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/item_order_item_tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/item_order_item_tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/item_order_item_tv_name"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/item_order_item_count"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/item_order_item_tv_name"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:background="#CCC"
+            android:gravity="center" />
+    </RelativeLayout>
+
+
+</LinearLayout>

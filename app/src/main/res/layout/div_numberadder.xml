@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="30dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/div_adder_cut"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_adder_cut" />
+
+    <TextView
+        android:id="@+id/div_adder_num"
+        android:layout_width="80dp"
+        android:layout_height="30dp" />
+
+    <ImageView
+        android:id="@+id/div_adder_put"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_adder_put" />
+
+</LinearLayout>

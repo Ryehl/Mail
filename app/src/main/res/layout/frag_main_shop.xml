@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/frag_shop_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFF"
+        android:orientation="horizontal">
+
+        <!--全选，所有类别商品-->
+        <CheckBox
+            android:id="@+id/frag_shop_cb_allshop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_selectAll" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/frag_shop_tv_count"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp" />
+
+            <TextView
+                android:id="@+id/frag_shop_tv_price"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:textColor="#F33" />
+        </LinearLayout>
+        <!--去结算-->
+        <Button
+            android:id="@+id/frag_shop_btn_toPay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tv_toBuy" />
+    </LinearLayout>
+
+</RelativeLayout>
